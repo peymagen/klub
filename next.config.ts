@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "api-bankers.basukalaiti.com",
+        hostname: "bankers.chandigarhsacs.org.in",
       },
       {
         protocol: "http",
@@ -12,6 +12,8 @@ const nextConfig = {
       },
     ],
   },
+
+  productionBrowserSourceMaps: true,
 };
 
 module.exports = nextConfig;
