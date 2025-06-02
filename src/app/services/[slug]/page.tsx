@@ -104,7 +104,7 @@ export default function ServiceDetail({
     },
   ];
   const { data: capital } = useGetCapitalFundedByIdQuery("HOME") as unknown as {
-    data: ICapitalFunded[];
+    data: { data: ICapitalFunded[] };
   };
   const { data: partner, isLoading: isPartnerLoad } =
     useGetPartnersQuery(undefined);
@@ -169,7 +169,7 @@ export default function ServiceDetail({
               <button>Get started now</button>
             </div>
             <div>
-              {capital?.map((item: ICapitalFunded, index: number) => (
+              {capital?.data?.map((item: ICapitalFunded, index: number) => (
                 <Capital key={index} index={index} data={item} />
               ))}
             </div>
