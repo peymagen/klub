@@ -1,0 +1,60 @@
+.section {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  justify-content: space-between;
+  margin-left: 0.5rem;
+  border: 1px solid #c4c4c4;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.head svg {
+  font-size: x-large;
+}
+.tail h1 {
+  font-weight: 100;
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+}
+.tail p {
+  font-size: 18px;
+  width: 300px;
+}
+
+.container {
+  padding: 50px 0;
+  position: relative;
+}
+
+.carsouel_container {
+  color: black;
+  padding: 0 10px;
+  display: flex;
+  scroll-behavior: smooth;
+  position: relative;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.carsouel_container:first-child {
+  padding-left: 3rem;
+}
+.body {
+  margin: 5rem 0;
+}
+.title {
+  place-items: center;
+}
+.title h1 {
+  font-size: 64px;
+  font-weight: 100;
+  margin-bottom: 1.5rem;
+}
+.title p {
+  max-width: 800px;
+  text-align: center;
+}

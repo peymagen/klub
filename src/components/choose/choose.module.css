@@ -1,0 +1,94 @@
+.head {
+  margin: 5rem 0;
+}
+.title {
+  place-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.body {
+  margin: 3rem 0;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1540px;
+  gap: 8px;
+
+  justify-content: space-between;
+}
+.title h1 {
+  font-size: 64px;
+  font-weight: 100;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.title p {
+  text-align: center;
+}
+.other {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.other > div {
+  width: 32%;
+}
+.content_0 {
+  background: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+
+  justify-content: space-between;
+}
+.body .content_0 {
+  width: 59%;
+}
+.content_1 {
+  background: #da2f58;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+
+  justify-content: space-between;
+}
+.body .content_1 {
+  width: 40%;
+}
+.content_2 {
+  background: #2c2c2c;
+  color: white;
+  padding: 2rem;
+  gap: 2rem;
+
+  justify-content: space-between;
+}
+.body .content_2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.img {
+  width: 100%;
+  object-fit: cover;
+}
+.card_title {
+  font-size: 24px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.card_description {
+  font-size: 16px;
+}
+.content_2 > .title {
+  align-content: center;
+}
+
+.body .content_2 > .img {
+  width: 60%;
+}

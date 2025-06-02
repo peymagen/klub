@@ -1,0 +1,78 @@
+.blog_box {
+  margin: 0 auto;
+  max-width: 1540px;
+  padding: 3rem 0;
+  border-radius: 1rem;
+}
+.blog_container {
+  padding: 2rem;
+  background-color: #efefef;
+}
+.banker_shadow {
+  box-shadow: 11px 9px 15px rgb(from var(--primaryBankerColor) r g b / 0.4);
+}
+.corporation_shadow {
+  box-shadow: 11px 9px 15px
+    rgb(from var(--primaryCorporationColor) r g b / 0.18);
+}
+.blog_head {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+}
+.blog_head div,
+.blog_tail div {
+  width: 100%;
+}
+.blog_head img,
+.blog_tail img {
+  width: 100%;
+  height: 15rem;
+}
+
+.blog_head h1 {
+  font-size: xxx-large;
+  padding: 1rem 0;
+}
+
+.blog_tail {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+.head div:first-child {
+  max-width: 800px;
+}
+.head h1 {
+  font-size: 72px;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+.head div:last-child {
+  place-self: end;
+}
+.meeting {
+  background: #2c2c2c;
+  border-radius: 25rem;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  width: fit-content;
+}
+@media (max-width: 680px) {
+  .blog_box {
+    padding: 3rem 1rem;
+    place-items: anchor-center;
+  }
+  .blog_head {
+    display: none;
+  }
+  .blog_tail {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,97 @@
+.timelineContainer {
+  position: relative;
+  padding: 20px;
+  width: 800px;
+  margin: 5rem auto;
+}
+
+.stepContainer {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background-color: white;
+  font-size: 16px;
+  position: absolute;
+  left: -20px;
+  top: 15px;
+  z-index: 2;
+  border: 2px solid #2c2c2c;
+}
+.number {
+  background: #ff0059;
+  color: white;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+.contentBox {
+  background-color: #fafafa;
+  border: 1px solid #c4c4c4;
+  padding: 20px;
+  margin-left: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.verticalLine {
+  position: absolute;
+  width: 3px;
+  background-color: #c4c4c4;
+  top: 35px;
+  left: -12px;
+  height: 13rem;
+  transition: background-color 0.5s ease;
+  z-index: 1;
+}
+.top_text {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.top_text h1 {
+  font-size: 36px;
+  font-weight: 400;
+}
+.top_text p {
+  margin: 1rem;
+}
+.arrow {
+  height: 2rem;
+  width: 1.5rem;
+  -webkit-clip-path: polygon(20px 0%, 100% 0%, 100% 100%, 20px 100%, 0% 50%);
+  clip-path: polygon(20px 0%, 100% 0%, 100% 100%, 20px 100%, 0% 50%);
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid transparent;
+  border-right: 1.5rem solid #fafafa;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  border-left: 1px solid black;
+  border-right-width: calc(1.5rem - 1px);
+  background: #c4c4c4;
+}
+.activeLine {
+  background-color: #ff0059;
+}

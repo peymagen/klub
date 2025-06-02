@@ -1,0 +1,7 @@
+.capital > h1 {
+  font-size: 64px;
+  color: #ff0059;
+}
+.capital > h3 {
+  padding: 0.5rem 0;
+}

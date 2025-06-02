@@ -1,0 +1,167 @@
+.upperContainer .outerDiv {
+  border-left: 1rem solid black;
+  border-bottom: 1rem solid black;
+  border-top: 1rem solid white;
+  border-right: 1rem solid white;
+  position: relative;
+  width: fit-content;
+}
+.upperContainer .innerDiv {
+  border-radius: 0.8rem;
+  background: var(--primaryDefaultColor);
+  position: relative;
+  bottom: 1rem;
+  left: 1rem;
+  max-width: 35rem;
+  display: flex;
+  padding: 2rem;
+  text-align: center;
+  gap: 2rem;
+  color: white;
+}
+.founder_card h3,
+.founder_card p {
+  text-align: left;
+}
+.innerDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  align-self: center;
+}
+.innerDiv div {
+  font-size: medium !important;
+  font-weight: 100 !important;
+  align-content: center;
+}
+.innerDiv p {
+  margin-bottom: 1rem;
+}
+.upperContainer {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  margin: 5rem 1rem;
+  margin-bottom: 1rem;
+}
+.upperContainer div {
+  align-content: center;
+  font-size: x-large;
+  font-weight: 600;
+}
+.listContainer {
+  display: flex;
+  gap: 5rem;
+  flex-wrap: wrap;
+  margin: 3rem 1rem;
+  place-self: center;
+}
+.person {
+  position: relative;
+  border-radius: 1rem;
+}
+.person img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.person div {
+  position: relative;
+  bottom: 4rem;
+  background: white;
+  box-shadow: 5px 5px 15px grey;
+  padding: 0.5rem 0.8rem;
+  margin: 0 1rem;
+  text-align: center;
+}
+.lowerContainer {
+  place-items: center;
+  gap: 5rem;
+  justify-content: center;
+  margin: 5rem 1rem;
+  margin-bottom: 1rem;
+}
+.lowerContainer h1 {
+  margin-bottom: 2rem;
+}
+.lowerContainer .outerDiv {
+  border-left: 1rem solid white;
+  border-bottom: 1rem solid white;
+  border-top: 1rem solid black;
+  border-right: 1rem solid black;
+  position: relative;
+  width: fit-content;
+}
+
+.lowerContainer .innerDiv {
+  border-radius: 0.8rem;
+  background: var(--primaryDefaultColor);
+  position: relative;
+  top: 1rem;
+  right: 1rem;
+  max-width: 35rem;
+  display: flex;
+  padding: 2rem;
+  text-align: center;
+  gap: 2rem;
+  color: white;
+}
+.founders_section {
+  display: flex;
+  align-items: center;
+  padding: 4rem 2rem;
+  gap: 4rem;
+}
+
+.founders_section h2 {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1.2;
+  place-self: start;
+  min-width: 300px;
+}
+
+.founders_cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.founder_card {
+  position: relative;
+  background: #fff;
+  padding: 1.5rem;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.founder_image {
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.founder_card h3 {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 1.2rem;
+}
+
+.founder_role {
+  color: #ff0066; /* Pinkish color */
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.linkedin_icon {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.linkedin_icon img {
+  width: 24px;
+  height: 24px;
+}

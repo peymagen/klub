@@ -1,0 +1,101 @@
+.container {
+  background: #1e1e1e;
+  color: white;
+  padding: 5rem 0;
+}
+.container > div:first-child {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.container > div:nth-child(2) {
+  margin-left: 3rem;
+}
+.content > h1 {
+  font-size: 64px;
+  font-weight: 100;
+}
+.content > button {
+  background: #fff;
+  border-radius: 25rem;
+  color: #2c2c2c;
+  padding: 1rem 2rem;
+  border: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: fit-content;
+  align-self: self-end;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem auto;
+}
+.steps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  max-width: 60%;
+  position: relative;
+}
+.steps hr {
+  border: none;
+  border-top: 3px solid #444444;
+  margin: 2rem 0;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  top: -12px;
+}
+.stepButton {
+  background-color: #444;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+  z-index: 99;
+}
+
+.active {
+  background-color: white;
+  color: black;
+}
+
+.scrollContainer {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+.card:first-child {
+  margin-left: 40px; /* or whatever spacing you want */
+}
+.ml_5 {
+  margin-left: 3rem;
+}
+.card {
+  display: flex;
+  margin-left: 2rem;
+  gap: 1rem;
+  font-size: 48px;
+  font-weight: 100;
+  scroll-snap-align: start;
+  background: white;
+  color: black;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.card h2 {
+  font-size: 48px;
+  margin-bottom: 5rem;
+}
+
+.card p {
+  width: 470px;
+}
+.card img {
+  height: 100%;
+}

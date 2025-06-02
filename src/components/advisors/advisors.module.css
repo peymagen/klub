@@ -1,0 +1,104 @@
+.meeting {
+  background: #ff0059;
+  border-radius: 25rem;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  width: fit-content;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.head svg {
+  font-size: x-large;
+}
+.tail h1 {
+  font-weight: 100;
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+}
+.tail p {
+  font-size: 18px;
+  width: 300px;
+}
+
+.container {
+  padding-top: 50px;
+  position: relative;
+}
+
+.carsouel_container {
+  margin-top: 3rem;
+  color: black;
+  padding: 0 10px;
+  display: flex;
+  scroll-behavior: smooth;
+  position: relative;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.carsouel_container:first-child {
+  padding-left: 3rem;
+}
+.section {
+  max-width: 1540px;
+  margin: 2rem auto;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+.head div:first-child {
+  max-width: 800px;
+}
+.head h1 {
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+.head div:last-child {
+  place-self: end;
+}
+.card {
+  padding: 2rem;
+  border-radius: 8px;
+  background: #e1e1e1;
+  margin-left: 1rem;
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header h3 {
+  width: 200px;
+  font-size: 24px;
+  font-weight: 100;
+}
+.header p {
+  font-size: 16px;
+  color: #878787;
+}
+.tailer p:first-child {
+  font-size: 12px;
+}
+.tailer p:last-child {
+  font-size: 36px;
+  color: #717171;
+  font-weight: 100;
+}
+.arrow_box {
+  text-align: left;
+  margin: 1rem 4rem;
+}
+.arrow_icon {
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  margin: 0 5px;
+  font-size: 18px;
+  padding-top: 0.7rem;
+  padding-right: 0.6rem;
+  cursor: pointer;
+}

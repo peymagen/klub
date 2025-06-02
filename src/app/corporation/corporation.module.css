@@ -1,0 +1,71 @@
+.content {
+  max-width: 1540px;
+  margin: 5rem auto;
+  padding: 2rem;
+  display: flex;
+  gap: 5rem;
+}
+
+.content > div {
+  width: 50%;
+}
+.left {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.left h1 {
+  font-size: 64px;
+  font-weight: 100;
+}
+.left p {
+  font-size: 16px;
+  font-weight: 100;
+}
+.left button,
+.creator button {
+  background: #ff0059;
+  border-radius: 25rem;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  width: fit-content;
+  margin-top: 2rem;
+  height: fit-content;
+}
+.right {
+  background: url("/content_corporations.png") no-repeat center center/cover;
+  height: 600px;
+  position: relative;
+}
+.right > div {
+  width: 350px;
+  height: auto;
+  background: #da2f58;
+  color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -40px;
+  right: 30px;
+}
+.right h3 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+.creator {
+  background-color: #e6e6e6;
+}
+.creator > div:first-child {
+  padding: 5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0rem auto;
+  max-width: 1540px;
+  align-items: self-end;
+}
+.creator h1 {
+  font-size: 64px;
+  font-weight: 100;
+}
