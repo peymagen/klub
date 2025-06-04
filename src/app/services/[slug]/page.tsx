@@ -15,7 +15,7 @@ import Slider from "@/components/sliders";
 import HomeBlog from "@/components/blogCard/home";
 import { useGetBlogsQuery } from "@/services/blog.api";
 import CaseCard from "@/components/blogCard/caseCard";
-import Timeline from "@/components/timeline";
+// import Timeline from "@/components/timeline";
 
 const sections = ["why", "pricing", "cases", "start"];
 const sectionNames = {
@@ -123,7 +123,7 @@ export default function ServiceDetail({
         <button>Get Started Now</button>
         <StatsCounter color={"white"} stats={statsData} />
       </header>
-      <Timeline />
+      {/* <Timeline /> */}
       <div className={styles.special}>
         <div className={styles.special_head}>
           <h1>Raise funds effortlessly</h1>

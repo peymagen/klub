@@ -7,6 +7,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer: React.FC = () => {
   return (
@@ -57,11 +58,21 @@ const Footer: React.FC = () => {
           <div className={styles.column}>
             <h4>About</h4>
             <ul>
-              <li>Team</li>
-              <li>Careers</li>
-              <li>FAQs</li>
-              <li>Blog</li>
-              <li>Investment</li>
+              <li>
+                <Link href="/team">Team</Link>
+              </li>
+              <li>
+                <Link href="/about">About Us</Link>
+              </li>
+              <li>
+                <Link href="/contact">Contact Us</Link>
+              </li>
+              <li>
+                <Link href="/career">Careers</Link>
+              </li>
+              <li>
+                <Link href="/services">Services</Link>
+              </li>
             </ul>
           </div>
 
